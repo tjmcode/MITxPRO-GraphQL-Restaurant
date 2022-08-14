@@ -14,7 +14,7 @@ This Resturant project is a refactored version of the MITxPRO Restaurant Starter
 
 ### Dependencies
 
-* REACT
+* Express
 * GraphQL
 * Node.JS
 
@@ -23,19 +23,29 @@ This Resturant project is a refactored version of the MITxPRO Restaurant Starter
 
 * Clone this repo
 
-* Use "npm install" to load a simple HTTP Server for the project
+* Use "npm install" to load dependencies for the project
 ```
 npm install
 ```
 
-* Use "npm start" command in the project folder to start the React App development environment
+* Add this lines to "scripts" in the package.json to create the npm "start" command...
+```
+"start": "node index.js",
+```
+
+* Use "npm start" command in the project folder to start the GraphQL App development environment
 ```
 npm start
 ```
 
 * Navigate your Browser to...
 ```
-localhost:3000
+localhost:5500/graphql
+```
+
+* The GraphQL test scripts and query variable defintions are all captured at the end of the included Word document...
+```
+MITxPRO-WEEk24.17 GraphQL Restaurant.docx
 ```
 
 * Demonstration of app startup...
@@ -46,11 +56,6 @@ localhost:3000
 
 <p align="left"><img src=".\public\app-ui.png" width="720" title="App U.I..."></p>
 
-* Demonstration of the React Bad Bank...
-
-<video id="demo-video" style="border-style:solid; border-width:2px" src="https://user-images.githubusercontent.com/8990676/167255859-1a522c57-5f2a-456d-8271-cf92531096b4.mp4" width="1024" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allow="autoplay *" loop autoplay autobuffer controls muted>
-Your browser does not support the HTML5 player.
-</video>
 </p>
 
 
@@ -64,7 +69,6 @@ This is an unsupported demonstation project.
 |-------------------|-------------------------------------------------------|
 |  NPM	            | Node Package Manager, actually “Node PM”, “Node pkgmakeinst” a system to deploy, install, and maintain NodeJS Apps. (PM was a BASH utility).
 |  Template	        | A file used to start others to ensure code and documentation consistency.
-|  React            | A Web UI development system, a JavaScript library developed by Facebook and made public—and Open Source—since 2013.
 |  GraphQL          | A query language for Web APIs.
 |  Express          | EXPRESS is *not* a database but rather an ‘extensible routing language’ for communication between a Client and a Server.
 
