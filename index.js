@@ -78,6 +78,10 @@ var {graphqlHTTP} = require("express-graphql");
 // Load GraphQL
 var {buildSchema, assertInputType} = require("graphql");
 
+// Load Swagger for API documentation
+var swaggerUi = require('swagger-ui-express');
+var swaggerDocument = require('./swagger.json');
+
 // Initialize a fake JSON Database of Restaurants...
 var restaurants = [
     {
